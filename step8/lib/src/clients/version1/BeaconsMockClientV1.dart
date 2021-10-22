@@ -1,7 +1,7 @@
 import 'package:pip_services3_commons/pip_services3_commons.dart';
 import 'package:sample_beacons/src/data/version1/data.dart';
 
-import 'version1.dart';
+import 'clients.dart';
 
 class BeaconsMockClientV1 implements IBeaconsClientV1 {
   int _maxPageSize = 100;
